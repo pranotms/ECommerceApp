@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net" Version="0.1.0" />
     <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
@@ -14,6 +15,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.29" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Model\ECommerce.Model.csproj" />
+    <ProjectReference Include="..\ECommerce.Repository\ECommerce.Repository.csproj" />
+    <ProjectReference Include="..\ECommerce.Service\ECommerce.Services.csproj" />
   </ItemGroup>
 
 </Project>

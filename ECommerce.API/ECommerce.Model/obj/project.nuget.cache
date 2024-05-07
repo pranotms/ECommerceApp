@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CxJTD2kp7n42PU/b1vaQ5veViMHMcpIIl856WKy9Rk+T1YlkwONrfPGx+OtRvfdRpNf7WABgN+OhzHipYDM9mA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ShindePranoti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ShindePranoti\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ShindePranoti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

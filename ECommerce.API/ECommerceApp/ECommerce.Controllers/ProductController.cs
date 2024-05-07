@@ -1,8 +1,7 @@
-﻿
-
-using ECommerceAPI.ECommerce.Services.Interfaces;
+﻿using ECommerceAPI.ECommerce.Services.Interfaces;
 using ECommerceApp.Model;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -14,10 +13,12 @@ namespace ECommerceApp.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
+        private readonly ILogger<ProductController> _logger;
 
-        public ProductController(IProductService productService)
+        public ProductController(IProductService productService, ILogger<ProductController> logger)
         {
             _productService = productService ?? throw new ArgumentNullException(nameof(productService));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         // GET: api/Product
@@ -38,6 +39,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error occurred while getting products");
                 return NotFound(ex.Message);
             }
         }
@@ -53,6 +55,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error occurred while adding product");
                 return BadRequest(ex.Message);
             }
         }
@@ -75,6 +78,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error occurred while updating product");
                 return BadRequest(ex.Message);
             }
         }
@@ -97,9 +101,33 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Error occurred while deleting product");
                 return BadRequest(ex.Message);
             }
         }
+
+        // GET: api/Product/search?query=searchTerm
+        [HttpGet("search")]
+        public async Task<ActionResult<List<Product>>> SearchProducts(string query)
+        {
+            try
+            {
+                var products = await _productService.SearchProducts(query);
+                if (products.Count > 0)
+                {
+                    return Ok(products);
+                }
+                else
+                {
+                    return Ok("No products found matching the search criteria");
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while searching products");
+                return StatusCode(500, "An error occurred while processing your request");
+            }
+        }
+
     }
 }
-

@@ -1,0 +1,15 @@
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\bin\Debug\net6.0\ECommerce.Repository.deps.json
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\bin\Debug\net6.0\ECommerce.Repository.dll
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\bin\Debug\net6.0\ECommerce.Repository.pdb
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\bin\Debug\net6.0\ECommerce.Model.dll
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\bin\Debug\net6.0\ECommerce.Model.pdb
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerce.Repository.csproj.AssemblyReference.cache
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerce.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerce.Repository.AssemblyInfoInputs.cache
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerce.Repository.AssemblyInfo.cs
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerce.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerc.A7A3BF9F.Up2Date
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerce.Repository.dll
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\refint\ECommerce.Repository.dll
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ECommerce.Repository.pdb
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\obj\Debug\net6.0\ref\ECommerce.Repository.dll

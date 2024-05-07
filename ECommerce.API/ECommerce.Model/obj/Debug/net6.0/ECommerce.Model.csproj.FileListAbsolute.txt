@@ -1,0 +1,11 @@
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\bin\Debug\net6.0\ECommerce.Model.deps.json
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\bin\Debug\net6.0\ECommerce.Model.dll
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\bin\Debug\net6.0\ECommerce.Model.pdb
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\ECommerce.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\ECommerce.Model.AssemblyInfoInputs.cache
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\ECommerce.Model.AssemblyInfo.cs
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\ECommerce.Model.csproj.CoreCompileInputs.cache
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\ECommerce.Model.dll
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\refint\ECommerce.Model.dll
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\ECommerce.Model.pdb
+C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Model\obj\Debug\net6.0\ref\ECommerce.Model.dll

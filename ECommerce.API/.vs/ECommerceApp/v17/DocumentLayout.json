@@ -1,130 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\",
+  "WorkspaceRootPath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFB65F86-F234-4C58-B964-84B5B5A67146}|ECommerceApp.Tests\\ECommerceApp.Tests.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerceapp.tests\\producttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB65F86-F234-4C58-B964-84B5B5A67146}|ECommerceApp.Tests\\ECommerceApp.Tests.csproj|solutionrelative:ecommerceapp.tests\\producttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EFB65F86-F234-4C58-B964-84B5B5A67146}|ECommerceApp.Tests\\ECommerceApp.Tests.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerceapp.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB65F86-F234-4C58-B964-84B5B5A67146}|ECommerceApp.Tests\\ECommerceApp.Tests.csproj|solutionrelative:ecommerceapp.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.service\\ecommerce.services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|solutionrelative:ecommerce.service\\ecommerce.services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.service\\ecommerce.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|solutionrelative:ecommerce.service\\ecommerce.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.service\\ecommerce.services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|solutionrelative:ecommerce.service\\ecommerce.services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.service\\ecommerce.services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|solutionrelative:ecommerce.service\\ecommerce.services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.service\\ecommerce.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|solutionrelative:ecommerce.service\\ecommerce.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.service\\ecommerce.services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA7341F-AD89-4B57-B358-3209193F9F73}|ECommerce.Service\\ECommerce.Services.csproj|solutionrelative:ecommerce.service\\ecommerce.services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.repository\\ecommerce.repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|solutionrelative:ecommerce.repository\\ecommerce.repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerec.model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerec.model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerec.model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerec.model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.repositories\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.repositories\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerec.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerec.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerec.model\\orderwithproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerec.model\\orderwithproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerec.model\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerec.model\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerec.model\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerec.model\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerec.model\\cartwithproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerec.model\\cartwithproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\test\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerceapp\\ecommerce.controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60446C16-9744-4D75-8B80-BABEFA03CA0F}|ECommerceApp\\ECommerceAPI.csproj|solutionrelative:ecommerceapp\\ecommerce.controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.repository\\ecommerce.repositories\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|solutionrelative:ecommerce.repository\\ecommerce.repositories\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.repository\\ecommerce.repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|solutionrelative:ecommerce.repository\\ecommerce.repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.repository\\ecommerce.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|solutionrelative:ecommerce.repository\\ecommerce.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.repository\\ecommerce.repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|solutionrelative:ecommerce.repository\\ecommerce.repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|c:\\users\\shindepranoti\\onedrive - bridgenext\\desktop\\repo\\ecommerce.api\\ecommerce.repository\\ecommerce.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CC86402-81F8-4EAE-B95A-FA85289805D3}|ECommerce.Repository\\ECommerce.Repository.csproj|solutionrelative:ecommerce.repository\\ecommerce.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,380 +94,220 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\OrderItemRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\OrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\OrderItemRepository.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\OrderItemRepository.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductTest.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp.Tests\\ProductTest.cs",
+              "RelativeDocumentMoniker": "ECommerceApp.Tests\\ProductTest.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp.Tests\\ProductTest.cs",
+              "RelativeToolTip": "ECommerceApp.Tests\\ProductTest.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T08:47:56.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\ProductRepository.cs*",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\ProductRepository.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T07:28:50.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\CartRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\CartRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\CartRepository.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\CartRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T13:03:13.019Z",
+              "WhenOpened": "2024-05-07T13:38:23.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DapperContext.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\DapperContext.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\DapperContext.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\DapperContext.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\DapperContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Title": "OrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "ECommerce.Service\\ECommerce.Services\\OrderItemService.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\OrderItemService.cs",
+              "RelativeToolTip": "ECommerce.Service\\ECommerce.Services\\OrderItemService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T09:20:15.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T13:38:09.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\UserRepository.cs*",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\UserRepository.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "ECommerce.Service\\ECommerce.Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "ECommerce.Service\\ECommerce.Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:56:23.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T13:37:24.194Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\Program.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\Program.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\Program.cs",
-              "RelativeToolTip": "ECommerceApp\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Title": "IOrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
+              "RelativeDocumentMoniker": "ECommerce.Service\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
+              "RelativeToolTip": "ECommerce.Service\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:19:50.49Z"
+              "WhenOpened": "2024-05-07T13:37:21.702Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\ICartService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\Interfaces\\ICartService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\ICartService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\Interfaces\\ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "ECommerce.Service\\ECommerce.Services\\Interfaces\\ICartService.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "ECommerce.Service\\ECommerce.Services\\Interfaces\\ICartService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T13:01:28.205Z"
+              "WhenOpened": "2024-05-07T13:37:19.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\CartController.cs",
+              "RelativeToolTip": "ECommerceApp\\ECommerce.Controllers\\CartController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDMAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:22:22.214Z"
+              "WhenOpened": "2024-05-07T09:39:01.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwAEAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp.Tests\\Usings.cs",
+              "RelativeDocumentMoniker": "ECommerceApp.Tests\\Usings.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp.Tests\\Usings.cs",
+              "RelativeToolTip": "ECommerceApp.Tests\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T07:29:26.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IOrderItemService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\Interfaces\\IOrderItemService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T08:46:09.901Z"
+              "WhenOpened": "2024-05-07T10:05:52.694Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T07:28:23.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:56:06.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IOrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\IOrderItemRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\IOrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\IOrderItemRepository.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\IOrderItemRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T08:45:04.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ECommerceAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerceAPI.csproj",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerceAPI.csproj",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerceAPI.csproj",
-              "RelativeToolTip": "ECommerceApp\\ECommerceAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-02T04:46:58.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\CartController.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Controllers\\CartController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T06:11:19.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\ProductController.cs",
               "RelativeToolTip": "ECommerceApp\\ECommerce.Controllers\\ProductController.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAwGUAAAAJAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAwwHAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T09:15:25.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\UserController.cs",
               "RelativeToolTip": "ECommerceApp\\ECommerce.Controllers\\UserController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAgwFkAAAANAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T04:48:20.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\UserService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\UserService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\UserService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCEAAAA2AAAA",
+              "DocumentIndex": 9,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ECommerce.Repository\\ECommerce.Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ECommerce.Repository\\ECommerce.Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAIwFIAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:22:43.652Z"
+              "WhenOpened": "2024-05-07T08:48:46.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\appsettings.json",
-              "RelativeDocumentMoniker": "ECommerceApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\appsettings.json",
-              "RelativeToolTip": "ECommerceApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T04:54:23.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\Cart.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerec.Model\\Cart.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\Cart.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerec.Model\\Cart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T06:09:13.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\Users.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerec.Model\\Users.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\Users.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerec.Model\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T05:02:47.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\ProductService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T07:30:05.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrderItemService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\OrderItemService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\OrderItemService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\OrderItemService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\OrderItemService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T08:47:07.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 8,
               "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\CartService.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Services\\CartService.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Services\\CartService.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowAAAAAAZAAAA",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\CartService.cs",
+              "RelativeDocumentMoniker": "ECommerce.Service\\ECommerce.Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\CartService.cs",
+              "RelativeToolTip": "ECommerce.Service\\ECommerce.Services\\CartService.cs",
+              "ViewState": "AQIAAAsAAAAAQDMzMzPTvwQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T13:01:51.438Z"
+              "WhenOpened": "2024-05-07T06:10:04.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\ICartRepository.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Repositories\\Interfaces\\ICartRepository.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerce.Repositories\\Interfaces\\ICartRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ECommerce.Service\\ECommerce.Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services\\UserService.cs",
+              "RelativeToolTip": "ECommerce.Service\\ECommerce.Services\\UserService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T13:02:51.414Z"
+              "WhenOpened": "2024-05-07T08:58:24.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\Product.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerec.Model\\Product.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\Product.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerec.Model\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:14:24.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "OrderWithProduct.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\OrderWithProduct.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerec.Model\\OrderWithProduct.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\OrderWithProduct.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerec.Model\\OrderWithProduct.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T08:43:15.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OrderItems.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\OrderItems.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerec.Model\\OrderItems.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\OrderItems.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerec.Model\\OrderItems.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T18:13:48.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerec.Model\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\LoginRequest.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerec.Model\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:17:05.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CartWithProduct.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\CartWithProduct.cs",
-              "RelativeDocumentMoniker": "ECommerceApp\\ECommerec.Model\\CartWithProduct.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerec.Model\\CartWithProduct.cs",
-              "RelativeToolTip": "ECommerceApp\\ECommerec.Model\\CartWithProduct.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T06:05:04.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 12,
               "Title": "OrderItemController.cs",
-              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\OrderItemController.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\OrderItemController.cs",
               "RelativeDocumentMoniker": "ECommerceApp\\ECommerce.Controllers\\OrderItemController.cs",
-              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\test\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\OrderItemController.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerce.Controllers\\OrderItemController.cs",
               "RelativeToolTip": "ECommerceApp\\ECommerce.Controllers\\OrderItemController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAA7wAAAAAAAAAAA",
+              "ViewState": "AQIAAF8AAACAZGZmZmYvwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:11:17.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\DapperContext.cs",
+              "RelativeDocumentMoniker": "ECommerce.Repository\\ECommerce.Repositories\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\DapperContext.cs",
+              "RelativeToolTip": "ECommerce.Repository\\ECommerce.Repositories\\DapperContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:59:18.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "ECommerce.Repository\\ECommerce.Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\CartRepository.cs",
+              "RelativeToolTip": "ECommerce.Repository\\ECommerce.Repositories\\CartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:57:02.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ECommerce.Repository\\ECommerce.Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ECommerce.Repository\\ECommerce.Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:56:39.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ECommerce.Repository.csproj",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repository.csproj",
+              "RelativeDocumentMoniker": "ECommerce.Repository\\ECommerce.Repository.csproj",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repository.csproj",
+              "RelativeToolTip": "ECommerce.Repository\\ECommerce.Repository.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-07T06:00:46.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "ECommerce.Repository\\ECommerce.Repositories\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Repository\\ECommerce.Repositories\\OrderItemRepository.cs",
+              "RelativeToolTip": "ECommerce.Repository\\ECommerce.Repositories\\OrderItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:47:51.412Z"
             }
           ]
         }
