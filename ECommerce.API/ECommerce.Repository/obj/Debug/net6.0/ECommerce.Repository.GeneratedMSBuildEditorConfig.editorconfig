@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ECommerce.Repository
-build_property.ProjectDir = C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\Repo\ECommerce.API\ECommerce.Repository\
+build_property.ProjectDir = C:\Users\ShindePranoti\OneDrive - Bridgenext\Desktop\abc\ECommerceApp\ECommerce.API\ECommerce.Repository\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

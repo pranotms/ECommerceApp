@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DFGFwnzBr98qDniVRVC2LRgJF3i0979Jp7HNj2yg3HYys9qGV8c8oTSDkf7Tq5N1Fpk1XQE6v7xQjGqvD48PWA==",
+  "dgSpecHash": "hWHLvG+ZzQpgxDn6+gwi5ePGIdcJZUOaXK0TEvB31xhAQPLIFYhUt0Eijb2oVkAwHkzko2naXoC+acfuXNNUXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerceApp\\ECommerceAPI.csproj",
+  "projectFilePath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\abc\\ECommerceApp\\ECommerce.API\\ECommerceApp\\ECommerceAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

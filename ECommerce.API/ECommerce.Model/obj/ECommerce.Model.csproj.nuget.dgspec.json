@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj": {}
+    "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\abc\\ECommerceApp\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj": {
+    "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\abc\\ECommerceApp\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj",
+        "projectUniqueName": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\abc\\ECommerceApp\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj",
         "projectName": "ECommerce.Model",
-        "projectPath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj",
+        "projectPath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\abc\\ECommerceApp\\ECommerce.API\\ECommerce.Model\\ECommerce.Model.csproj",
         "packagesPath": "C:\\Users\\ShindePranoti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Model\\obj\\",
+        "outputPath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\abc\\ECommerceApp\\ECommerce.API\\ECommerce.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ShindePranoti\\AppData\\Roaming\\NuGet\\NuGet.Config",
