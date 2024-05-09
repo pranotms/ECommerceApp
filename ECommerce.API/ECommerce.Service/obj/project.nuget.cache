@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xH/e333EieLXLg4pEfWOiAweA6mhj1rniAuHFvt0uHQTbSdo3+tl3mnYfriO3N/gCiy69j0OU8dHr/nyWoSeDg==",
+  "dgSpecHash": "gHp8AuOc0uevB7CvkO7ZPLwc7dTT5F2Mcr52iIf6bJMWywhdAMUt7v+nVj8b+j52OwHOUzr/45+n0+i2C0aruw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\abc\\ECommerceApp\\ECommerce.API\\ECommerce.Service\\ECommerce.Services.csproj",
+  "projectFilePath": "C:\\Users\\ShindePranoti\\OneDrive - Bridgenext\\Desktop\\Repo\\ECommerce.API\\ECommerce.Service\\ECommerce.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -27,6 +27,8 @@
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\ShindePranoti\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\ShindePranoti\\.nuget\\packages\\serilog.sinks.console\\5.0.1\\serilog.sinks.console.5.0.1.nupkg.sha512",
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\ShindePranoti\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",

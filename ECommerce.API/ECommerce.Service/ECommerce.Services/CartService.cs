@@ -1,5 +1,4 @@
-﻿
-using ECommerceAPI.ECommerce.Repositories.NewFolder;
+﻿using ECommerceAPI.ECommerce.Repositories.NewFolder;
 using ECommerceAPI.ECommerce.Services.Interfaces;
 using ECommerceApp.Model;
 using Microsoft.Extensions.Logging;
@@ -67,3 +66,4 @@ namespace ECommerceApp.Services
         }
     }
 }
+

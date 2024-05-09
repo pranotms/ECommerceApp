@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+﻿
 using ECommerceApp.Services;
 using ECommerceApp.Model;
 using Moq;
@@ -35,7 +35,9 @@ namespace ECommerceApp.Tests
             var result = await _productService.GetProducts();
 
             // Assert
+            
             Assert.AreEqual(expectedProducts.Count, result.Count);
+            
         }
 
         [Test]

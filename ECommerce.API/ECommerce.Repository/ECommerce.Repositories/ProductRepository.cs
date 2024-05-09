@@ -19,6 +19,7 @@ namespace ECommerceApp.Repositories
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            
         }
 
         public async Task<List<Product>> GetProducts()

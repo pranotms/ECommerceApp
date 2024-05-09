@@ -1,16 +1,15 @@
-﻿// UserController.cs
-using ECommerceApp.Model;
+﻿using ECommerceApp.Model;
 using ECommerceAPI.ECommerce.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Microsoft.IdentityModel.Tokens;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ECommerceApp.Controllers
 {
@@ -20,13 +19,11 @@ namespace ECommerceApp.Controllers
     {
         private readonly IUserService _userService;
         private readonly IConfiguration _configuration;
-        private readonly ILogger<UserController> _logger;
 
-        public UserController(IUserService userService, IConfiguration configuration, ILogger<UserController> logger)
+        public UserController(IUserService userService, IConfiguration configuration)
         {
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         [HttpGet]
@@ -39,7 +36,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while getting users");
+                Log.Error(ex, "Error occurred while getting users");
                 return StatusCode(500, "Internal server error");
             }
         }
@@ -63,7 +60,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while logging in");
+                Log.Error(ex, "Error occurred while logging in");
                 return StatusCode(500, "Internal server error");
             }
         }
@@ -85,7 +82,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while adding user");
+                Log.Error(ex, "Error occurred while adding user");
                 return StatusCode(500, "Internal server error");
             }
         }
@@ -107,9 +104,9 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while deleting user");
+                Log.Error(ex, "Error occurred while deleting user");
                 return StatusCode(500, "Internal server error");
-                
+
             }
         }
 
@@ -122,7 +119,6 @@ namespace ECommerceApp.Controllers
             {
                 new Claim(ClaimTypes.Name, user.Email),
                 new Claim(ClaimTypes.Email, user.Email),
-               
             };
 
             var token = new JwtSecurityToken(
