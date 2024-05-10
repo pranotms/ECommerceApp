@@ -1,7 +1,10 @@
-﻿using ECommerceApp.Model;
+﻿
+using ECommerceApp.Model;
 using ECommerceAPI.ECommerce.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -9,7 +12,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.IdentityModel.Tokens;
 
 namespace ECommerceApp.Controllers
 {
@@ -119,6 +121,7 @@ namespace ECommerceApp.Controllers
             {
                 new Claim(ClaimTypes.Name, user.Email),
                 new Claim(ClaimTypes.Email, user.Email),
+
             };
 
             var token = new JwtSecurityToken(

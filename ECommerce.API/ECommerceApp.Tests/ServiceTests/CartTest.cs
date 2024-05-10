@@ -4,7 +4,7 @@ using Moq;
 using Microsoft.Extensions.Logging;
 using ECommerceAPI.ECommerce.Repositories.NewFolder;
 
-namespace ECommerceApp.Tests
+namespace ECommerceApp.Tests.ServiceTests
 {
     [TestFixture]
     public class CartTest
@@ -16,8 +16,8 @@ namespace ECommerceApp.Tests
         public void Setup()
         {
             _cartRepositoryMock = new Mock<ICartRepository>();
-            var loggerMock = new Mock<ILogger<CartService>>();
-            _cartService = new CartService(_cartRepositoryMock.Object, loggerMock.Object);
+
+            _cartService = new CartService(_cartRepositoryMock.Object);
         }
 
         [Test]

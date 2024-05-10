@@ -2,7 +2,7 @@
 using ECommerceAPI.ECommerce.Repositories;
 using ECommerceAPI.ECommerce.Repositories.NewFolder;
 using ECommerceApp.Model;
-using Microsoft.Extensions.Logging;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,15 +13,14 @@ namespace ECommerceApp.Repositories
     public class CartRepository : ICartRepository
     {
         private readonly DapperContext _context;
-        private readonly ILogger<CartRepository> _logger;
+      
 
-        public CartRepository(DapperContext context, ILogger<CartRepository> logger)
+        public CartRepository(DapperContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            
         }
-
-        
+       
         public async Task<List<CartWithProduct>> GetCartItemsForUser(int userId)
         {
             using (IDbConnection connection = _context.CreateConnection())
@@ -32,9 +31,7 @@ namespace ECommerceApp.Repositories
                 return (await connection.QueryAsync<CartWithProduct>(query, parameters, commandType: CommandType.StoredProcedure)).AsList();
             }
         }
-
-
-      
+     
         public async Task<List<CartWithProduct>> GetAllCartItems()
         {
             using (IDbConnection connection = _context.CreateConnection())
@@ -44,9 +41,7 @@ namespace ECommerceApp.Repositories
                 return (await connection.QueryAsync<CartWithProduct>(query, commandType: CommandType.StoredProcedure)).AsList();
             }
         }
-
-
-        
+       
 
         public async Task AddToCart(Cart cart)
         {
@@ -57,7 +52,6 @@ namespace ECommerceApp.Repositories
                     commandType: CommandType.StoredProcedure);
             }
         }
-
 
         public async Task UpdateCartItem(int cartId, Cart cart)
         {
@@ -72,7 +66,6 @@ namespace ECommerceApp.Repositories
                     commandType: CommandType.StoredProcedure);
             }
         }
-
 
         public async Task DeleteCart(int cartId)
         {

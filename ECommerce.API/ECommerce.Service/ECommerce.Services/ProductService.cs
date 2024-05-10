@@ -1,7 +1,7 @@
 ﻿using ECommerceAPI.ECommerce.Repositories.NewFolder;
 using ECommerceAPI.ECommerce.Services.Interfaces;
 using ECommerceApp.Model;
-using Microsoft.Extensions.Logging;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -11,28 +11,41 @@ namespace ECommerceApp.Services
     public class ProductService : IProductService
     {
         private readonly IProductRepository _productRepository;
-        private readonly ILogger<ProductService> _logger;
+        
 
-        public ProductService(IProductRepository productRepository, ILogger<ProductService> logger)
+        public ProductService(IProductRepository productRepository)
         {
             _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            
         }
     
     public async Task<List<Product>> GetProducts()
     {
-        return await _productRepository.GetProducts();
+        var product= await _productRepository.GetProducts();
+        Log.Information("Retrieved all the count of products");
+        return product;
     }
 
     public async Task<Product> AddProduct(Product product)
-    {
-        return await _productRepository.AddProduct(product);
-    }
+        {
+            var addedProduct = await _productRepository.AddProduct(product);
+            Log.Information("Added product with ID {ProductId}", addedProduct.Id);
+            return addedProduct;
+        }
 
     public async Task<bool> UpdateProduct(int id, Product product)
     {
-        return await _productRepository.UpdateProduct(id, product);
-    }
+            var isUpdated = await _productRepository.UpdateProduct(id, product);
+            if (isUpdated)
+            {
+                Log.Information("Updated product with ID {ProductId}", id);
+            }
+            else
+            {
+                Log.Information("Product with ID {ProductId} not found for update", id);
+            }
+            return isUpdated;
+        }
 
     public async Task<bool> DeleteProduct(int id)
     {
@@ -41,8 +54,10 @@ namespace ECommerceApp.Services
 
         public async Task<List<Product>> SearchProducts(string query)
         {
-           
-            return await _productRepository.SearchProducts(query);
+
+            var products = await _productRepository.SearchProducts(query);
+            Log.Information("Searched products with query: {Query}, found {Count} products", query, products.Count);
+            return products;
         }
 
     }

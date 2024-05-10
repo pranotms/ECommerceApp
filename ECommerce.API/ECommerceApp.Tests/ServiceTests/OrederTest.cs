@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using ECommerceAPI.ECommerce.Repositories.NewFolder;
 
-namespace ECommerceApp.Tests
+namespace ECommerceApp.Tests.ServiceTests
 {
     [TestFixture]
     public class OrderItemServiceTest
@@ -20,8 +20,8 @@ namespace ECommerceApp.Tests
         public void Setup()
         {
             _orderItemRepositoryMock = new Mock<IOrderItemRepository>();
-            _loggerMock = new Mock<ILogger<OrderItemService>>();
-            _orderItemService = new OrderItemService(_orderItemRepositoryMock.Object, _loggerMock.Object);
+
+            _orderItemService = new OrderItemService(_orderItemRepositoryMock.Object);
         }
 
         [Test]
@@ -51,7 +51,7 @@ namespace ECommerceApp.Tests
             {
                 new OrderWithProduct { ID = 1, UserID = 1, ProductID = 1, Quantity = 2, TotalPrice = 20.0m, OrderStatus = "Pending", Product = new Product { Id = 1, Name = "Product 1", UnitPrice = 10.0m, Quantity = 5 } }
             };
-             _orderItemRepositoryMock.Setup(repo => repo.GetUserOrders(userId)).ReturnsAsync(expectedOrders);
+            _orderItemRepositoryMock.Setup(repo => repo.GetUserOrders(userId)).ReturnsAsync(expectedOrders);
 
 
 

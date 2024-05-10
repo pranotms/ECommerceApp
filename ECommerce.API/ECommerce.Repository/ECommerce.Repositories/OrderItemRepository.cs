@@ -1,5 +1,4 @@
-﻿
-using Dapper;
+﻿using Dapper;
 using System.Data;
 using System;
 using System.Collections.Generic;
@@ -8,20 +7,19 @@ using ECommerceApp.Model;
 using ECommerceAPI.ECommerce.Repositories;
 using ECommerceAPI.ECommerce.Repositories.NewFolder;
 using ECommerceApp.Repositories;
-using Microsoft.Extensions.Logging;
+using Serilog;
 
 public class OrderItemRepository : IOrderItemRepository
 {
     private readonly DapperContext _context;
-    private readonly ILogger<OrderItemRepository> _logger;
+   
 
-    public OrderItemRepository(DapperContext context, ILogger<OrderItemRepository> logger)
+    public OrderItemRepository(DapperContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(context));
-        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+       
     }
-
-    
+   
     public async Task<IEnumerable<OrderWithProduct>> GetAllUsersOrders()
     {
         using (IDbConnection connection = _context.CreateConnection())
@@ -39,9 +37,7 @@ public class OrderItemRepository : IOrderItemRepository
             return orderItems;
         }
     }
-
-
-  
+ 
     public async Task<IEnumerable<OrderWithProduct>> GetUserOrders(int userId)
     {
         using (IDbConnection connection = _context.CreateConnection())
@@ -60,9 +56,7 @@ public class OrderItemRepository : IOrderItemRepository
             return orderItems;
         }
     }
-
-
-   
+ 
 
     public async Task InsertOrder(OrderItem order)
     {
@@ -81,7 +75,6 @@ public class OrderItemRepository : IOrderItemRepository
                 commandType: CommandType.StoredProcedure);
         }
     }
-
     public async Task UpdateOrderStatus(int orderId, string newStatus)
     {
         using (IDbConnection connection = _context.CreateConnection())

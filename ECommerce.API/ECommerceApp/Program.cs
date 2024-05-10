@@ -13,8 +13,6 @@ using ECommerceAPI.ECommerce.Repositories.NewFolder;
 using ECommerceAPI.ECommerce.Services.Interfaces;
 using ECommerceAPI.ECommerce.Repositories;
 using Serilog;
-using Serilog.Events;
-
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,13 +27,6 @@ var configuration = new ConfigurationBuilder()
 var jwtIssuer = builder.Configuration.GetSection("Jwt:Issuer").Get<string>();
 var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
 
-// Configure Serilog
-Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Debug() // Set the minimum log level to Debug
-    .MinimumLevel.Override("Microsoft", LogEventLevel.Information) 
-    .Enrich.FromLogContext() 
-    .WriteTo.Console() 
-    .CreateLogger(); 
 
 // Add services to the container.
 builder.Services.AddAuthorization();
@@ -77,6 +68,13 @@ builder.Services.AddScoped<IOrderItemService, OrderItemService>();
 
 //DbDapper
 builder.Services.AddTransient<DapperContext>();
+builder.Services.AddLogging();
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 
 
@@ -92,6 +90,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseSerilogRequestLogging();
 app.UseSwagger();
 app.UseSwaggerUI();
 

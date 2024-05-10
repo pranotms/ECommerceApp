@@ -1,7 +1,7 @@
 ﻿using ECommerceAPI.ECommerce.Services.Interfaces;
 using ECommerceApp.Model;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -13,12 +13,10 @@ namespace ECommerceApp.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
-        private readonly ILogger<ProductController> _logger;
 
-        public ProductController(IProductService productService, ILogger<ProductController> logger)
+        public ProductController(IProductService productService)
         {
             _productService = productService ?? throw new ArgumentNullException(nameof(productService));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         // GET: api/Product
@@ -39,7 +37,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while getting products");
+                Log.Error(ex, "Error occurred while getting products");
                 return NotFound(ex.Message);
             }
         }
@@ -55,7 +53,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while adding product");
+                Log.Error(ex, "Error occurred while adding product");
                 return BadRequest(ex.Message);
             }
         }
@@ -78,7 +76,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while updating product");
+                Log.Error(ex, "Error occurred while updating product");
                 return BadRequest(ex.Message);
             }
         }
@@ -101,7 +99,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while deleting product");
+                Log.Error(ex, "Error occurred while deleting product");
                 return BadRequest(ex.Message);
             }
         }
@@ -124,7 +122,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while searching products");
+                Log.Error(ex, "Error occurred while searching products");
                 return StatusCode(500, "An error occurred while processing your request");
             }
         }

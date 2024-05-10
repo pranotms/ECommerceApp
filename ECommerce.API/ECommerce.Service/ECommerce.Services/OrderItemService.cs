@@ -5,33 +5,40 @@ using ECommerceAPI.ECommerce.Repositories.NewFolder;
 using ECommerceAPI.ECommerce.Services.Interfaces;
 using ECommerceApp.Model;
 using ECommerceApp.Services;
-using Microsoft.Extensions.Logging;
+using Serilog;
 
 
 public class OrderItemService : IOrderItemService
 {
     private readonly IOrderItemRepository _orderItemRepository;
-    private readonly ILogger<OrderItemService> _logger;
+   
 
-    public OrderItemService(IOrderItemRepository orderItemRepository, ILogger<OrderItemService> logger)
+    public OrderItemService(IOrderItemRepository orderItemRepository)
     {
         _orderItemRepository = orderItemRepository;
-        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+        
     }
 
     public async Task<IEnumerable<OrderWithProduct>> GetAllUsersOrders()
     {
-        return await _orderItemRepository.GetAllUsersOrders();
+       
+        var orders = await _orderItemRepository.GetAllUsersOrders();
+        Log.Information("Retrieved  orders for all users");
+        return orders;
     }
 
     public async Task<IEnumerable<OrderWithProduct>> GetUserOrders(int userId)
     {
-        return await _orderItemRepository.GetUserOrders(userId);
+        var orders = await _orderItemRepository.GetUserOrders(userId);
+        Log.Information("Retrieved  orders for user with ID {UserId}", userId);
+        return orders;
     }
 
     public async Task<object> PlaceOrder(OrderItem order)
     {
+      
         await _orderItemRepository.InsertOrder(order);
+        Log.Information("Order placed successfully");
         return order;
     }
 
@@ -42,6 +49,8 @@ public class OrderItemService : IOrderItemService
 
     public async Task DeleteOrder(int orderId)
     {
+        
         await _orderItemRepository.DeleteOrder(orderId);
+        Log.Information("Deleted order with ID {OrderId}", orderId);
     }
 }

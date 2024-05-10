@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Dapper;
 using ECommerceApp.Model;
 using ECommerceAPI.ECommerce.Repositories.NewFolder;
-using Microsoft.Extensions.Logging;
+using Serilog;
 using ECommerceAPI.ECommerce.Repositories;
 
 namespace ECommerceApp.Repositories
@@ -13,15 +13,12 @@ namespace ECommerceApp.Repositories
     public class ProductRepository : IProductRepository
     {
         private readonly DapperContext _context;
-        private readonly ILogger<ProductRepository> _logger;
-
-        public ProductRepository(DapperContext context, ILogger<ProductRepository> logger)
+     
+        public ProductRepository(DapperContext context)
         {
-            _context = context ?? throw new ArgumentNullException(nameof(context));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _context = context ?? throw new ArgumentNullException(nameof(context));    
             
         }
-
         public async Task<List<Product>> GetProducts()
         {
             using IDbConnection connection = _context.CreateConnection();
@@ -29,7 +26,6 @@ namespace ECommerceApp.Repositories
             var products = await connection.QueryAsync<Product>("GetProducts", commandType: CommandType.StoredProcedure);
             return products.AsList();
         }
-
       
         public async Task<Product> AddProduct(Product product)
         {
@@ -49,9 +45,6 @@ namespace ECommerceApp.Repositories
 
             return product;
         }
-
-
-
         public async Task<bool> UpdateProduct(int id, Product product)
         {
             using IDbConnection connection = _context.CreateConnection();
@@ -69,8 +62,6 @@ namespace ECommerceApp.Repositories
             var rowsAffected = await connection.ExecuteAsync(query, parameters, commandType: CommandType.StoredProcedure);
             return rowsAffected > 0;
         }
-
-
         public async Task<bool> DeleteProduct(int id)
         {
             using IDbConnection connection = _context.CreateConnection();

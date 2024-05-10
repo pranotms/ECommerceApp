@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 using ECommerceApp.Model;
 using ECommerceAPI.ECommerce.Services.Interfaces;
 using Microsoft.Extensions.Logging;
+using Serilog;
 
 [Route("api/[controller]")]
 [ApiController]
 public class OrderItemController : ControllerBase
 {
     private readonly IOrderItemService _orderItemService;
-    private readonly ILogger<OrderItemController> _logger;
+   
 
     public OrderItemController(IOrderItemService orderItemService, ILogger<OrderItemController> logger)
     {
         _orderItemService = orderItemService ?? throw new ArgumentNullException(nameof(orderItemService));
-        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+       
     }
 
     // GET: api/orderitem/all
@@ -31,7 +32,7 @@ public class OrderItemController : ControllerBase
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "An error occurred while fetching all user orders.");
+           Log.Error(ex, "An error occurred while fetching all user orders.");
             return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
         }
     }
@@ -47,7 +48,7 @@ public class OrderItemController : ControllerBase
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, $"An error occurred while fetching orders for user ID: {userId}");
+            Log.Error(ex, $"An error occurred while fetching orders for user ID: {userId}");
             return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
         }
     }
@@ -63,7 +64,7 @@ public class OrderItemController : ControllerBase
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "An error occurred while placing the order.");
+            Log.Error(ex, "An error occurred while placing the order.");
             return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
         }
     }
@@ -79,7 +80,7 @@ public class OrderItemController : ControllerBase
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, $"An error occurred while updating the status for order ID: {orderId}");
+            Log.Error(ex, $"An error occurred while updating the status for order ID: {orderId}");
             return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
         }
     }
@@ -95,7 +96,7 @@ public class OrderItemController : ControllerBase
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, $"An error occurred while deleting the order with ID: {orderId}");
+            Log.Error(ex, $"An error occurred while deleting the order with ID: {orderId}");
             return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
         }
     }

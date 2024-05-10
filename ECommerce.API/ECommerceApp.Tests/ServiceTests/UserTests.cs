@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using ECommerceAPI.ECommerce.Repositories.NewFolder;
 
-namespace ECommerceApp.Tests
+namespace ECommerceApp.Tests.ServiceTests
 {
     [TestFixture]
     public class UserTest
@@ -17,9 +17,11 @@ namespace ECommerceApp.Tests
         [SetUp]
         public void Setup()
         {
+            //_userRepositoryMock = new Mock<IUserRepository>();
+            //var loggerMock = new Mock<ILogger<UserService>>();
+            //_userService = new UserService(_userRepositoryMock.Object, loggerMock.Object);
             _userRepositoryMock = new Mock<IUserRepository>();
-            var loggerMock = new Mock<ILogger<UserService>>();
-            _userService = new UserService(_userRepositoryMock.Object, loggerMock.Object);
+            _userService = new UserService(_userRepositoryMock.Object);
         }
 
         [Test]

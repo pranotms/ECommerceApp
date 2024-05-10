@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
+using Serilog;
 
 namespace ECommerceApp.Controllers
 {
@@ -14,12 +15,12 @@ namespace ECommerceApp.Controllers
     public class CartController : ControllerBase
     {
         private readonly ICartService _cartService;
-        private readonly ILogger<CartController> _logger;
+        
 
         public CartController(ICartService cartService, ILogger<CartController> logger)
         {
             _cartService = cartService ?? throw new ArgumentNullException(nameof(cartService));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            
         }
 
         [HttpGet("{userId}")]
@@ -35,7 +36,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while getting cart items for user");
+                Log.Error(ex, "Error occurred while getting cart items for user");
                 return StatusCode(500, ex.Message);
             }
         }
@@ -53,7 +54,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while getting all cart items");
+                Log.Error(ex, "Error occurred while getting all cart items");
                 return StatusCode(500, ex.Message);
             }
         }
@@ -68,7 +69,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while adding item to cart");
+                Log.Error(ex, "Error occurred while adding item to cart");
                 return BadRequest(ex.Message);
             }
         }
@@ -83,7 +84,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while updating cart item");
+                Log.Error(ex, "Error occurred while updating cart item");
                 return BadRequest(ex.Message);
             }
         }
@@ -98,7 +99,7 @@ namespace ECommerceApp.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while deleting cart");
+                Log.Error(ex, "Error occurred while deleting cart");
                 return BadRequest(ex.Message);
             }
         }

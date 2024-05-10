@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using ECommerceAPI.ECommerce.Repositories.NewFolder;
 using System.Collections.Generic;
 
-namespace ECommerceApp.Tests
+namespace ECommerceApp.Tests.ServiceTests
 {
     [TestFixture]
     public class ProductTest
@@ -19,8 +19,8 @@ namespace ECommerceApp.Tests
         public void Setup()
         {
             _productRepositoryMock = new Mock<IProductRepository>();
-            var loggerMock = new Mock<ILogger<ProductService>>();
-            _productService = new ProductService(_productRepositoryMock.Object, loggerMock.Object);
+
+            _productService = new ProductService(_productRepositoryMock.Object);
         }
 
         [Test]
@@ -35,9 +35,9 @@ namespace ECommerceApp.Tests
             var result = await _productService.GetProducts();
 
             // Assert
-            
+
             Assert.AreEqual(expectedProducts.Count, result.Count);
-            
+
         }
 
         [Test]
