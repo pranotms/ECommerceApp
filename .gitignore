@@ -40,3 +40,6 @@ msbuild.wrn
 # Visual Studio 2022
 .vs/
 
+#Log file
+Logs/
+
